@@ -4,8 +4,8 @@ import '../models/divida.dart';
 import '../models/contato.dart';
 
 class ApiService {
-  //static const String baseUrl = 'https://projeto-mobile-dsm5.onrender.com'; // Para api produção
-  static const String baseUrl = 'http://192.168.100.253:3000'; // Para api local
+  static const String baseUrl = 'https://projeto-mobile-dsm5.onrender.com'; // Para api produção
+  //static const String baseUrl = 'http://192.168.100.253:3000'; // Para api local
 
   // Dívidas
   static Future<List<Divida>> buscarDividas() async {
